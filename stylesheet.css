@@ -1,0 +1,226 @@
+/* Common CSS */
+* {
+    box-sizing: border-box;
+  }
+
+  table .miring {
+    font-style: italic;
+  }
+
+  table .nomor{
+    width: 50px;
+  }
+
+  table .lebar{
+    width: 300px;
+  }
+
+  .Menu {
+    width: 1000px;
+    
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Lucida Bright;
+    color: rgb(10, 17, 114);
+    margin: 50px 30px 0 60px;
+  }
+
+  td{
+      border: 2px solid blanchedalmond;
+      margin: 50px 30px 0 60px;
+      color: black;
+      
+      
+  }
+
+  tr{
+    height: 50px;
+  }
+
+  th{
+    border: 2px solid blanchedalmond;
+      margin: 50px 30px 0 60px;
+      color: white;
+      
+  }
+
+  .table th{
+    background-color:#800000;
+  }
+
+  .table td{
+    background-color:rgb(233, 179, 179);
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  
+
+  /* .table {
+    height: 15px;
+    padding-top: 200px;
+    margin-bottom: 20px;
+  } */
+
+  table{
+      top: 20px;
+      border-collapse: collapse;
+      margin-left: 85px;
+      font-size: 25px;
+  }
+
+  .contents {
+    height: 15px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+
+  .contents-item {
+    float: left;
+    margin-right: 40px;
+  }
+  
+  .contents-item p {
+    font-size: 24px;
+    margin: 5px 0;
+    color: black;
+    font-weight: bold;
+  }
+  
+
+  img {
+    width: 280px;
+    border-radius: 5px;
+    height: 310px;
+    margin: 30px 30px 0 30px;
+  }
+  
+  html, body,
+  ul, ol, li,
+  h1, h2, h3, h4, h5, h6, p,
+  form, input, div {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Lato, 'Hiragino Kaku Gothic Pro', sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    color: #89949e;
+  }
+  
+  h2, h3, h4, h5, h6 {
+    font-weight: 400;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #4ac0b9;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:visited {
+    color: #4ac0b9;
+  }
+  
+  
+  
+  .container {
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  marquee {
+      width: 1000px;
+      margin-top: 10px;
+      font-size: 20px;
+      font-weight: bold;
+      font-family: Lucida Bright;
+      color: rgb(124, 80, 23);
+
+  }
+  
+  /* Menu CSS */
+  .judul {
+    font-family: Candara;
+    font-size: 50px;
+    color: #5d7bdf;
+    display: inline-block;
+    padding: 20px 0;
+    margin: 80px 30px 0 30px;
+    /* border-bottom: 5px solid #5d7bdf; */
+  }
+
+  hr {
+    padding: 2px 0;
+    background-color: #313636;
+  }
+  
+  .menu-wrapper {
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  
+  .menu-item-name {
+    line-height: 1.7;
+    font-size: 25px;
+    margin-top: 15px;
+    color: #4ac0b9;
+  }
+  
+  .menu-item-type {
+    font-size: 14px;
+  }
+  
+  .price {
+    margin: 15px 0;
+    font-size: 18px;
+    color: #322f33;
+  }
+  
+  .menu-items {
+    margin-bottom: 60px;
+  }
+  
+  .menu-item {
+    display: inline-block;
+    width: 40%;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
+  .menu-item-image {
+    border-radius: 5px;
+  }
+  
+  .menu-item span {
+    font-size: 16px;
+  }
+  
+  .icon-review {
+    width: 40px;
+    margin-right: 10px;
+    margin-top: -12px;
+  }
+  
+  .icon-user {
+    width: 30px;
+  }
+  
+  .review-user {
+    width: 60px;
+    display: inline-block;
+    border-right: 1px solid #c1ced7;
+    padding-right: 8px;
+    text-align: center;
+  }
+  
